@@ -1,0 +1,134 @@
+[
+  {
+    "question": "Which keyword is used to define a function in Python?",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "define"
+    ],
+    "answer": "B",
+    "explanation": "Python functions are defined with the def keyword."
+  },
+  {
+    "question": "Which data type stores key-value pairs in Python?",
+    "options": [
+      "list",
+      "tuple",
+      "dictionary",
+      "set"
+    ],
+    "answer": "C",
+    "explanation": "A dictionary maps keys to values."
+  },
+  {
+    "question": "What is the result of len([10, 20, 30])?",
+    "options": [
+      "2",
+      "3",
+      "10",
+      "30"
+    ],
+    "answer": "B",
+    "explanation": "The list contains three items."
+  },
+  {
+    "question": "Which loop is commonly used to iterate over a sequence?",
+    "options": [
+      "repeat",
+      "foreach",
+      "for",
+      "loop"
+    ],
+    "answer": "C",
+    "explanation": "A for loop iterates over items in an iterable."
+  },
+  {
+    "question": "Which file format is commonly used for structured data and supported by Python?",
+    "options": [
+      "JSON",
+      "EXE",
+      "MP3",
+      "PSD"
+    ],
+    "answer": "A",
+    "explanation": "JSON is a text-based data interchange format."
+  },
+  {
+    "question": "What does input() return in Python?",
+    "options": [
+      "Always an integer",
+      "Always a float",
+      "A string",
+      "A Boolean"
+    ],
+    "answer": "C",
+    "explanation": "input() returns the entered text as a string."
+  },
+  {
+    "question": "Which list method adds an item to the end of a list?",
+    "options": [
+      "push()",
+      "append()",
+      "add_end()",
+      "insert_end()"
+    ],
+    "answer": "B",
+    "explanation": "append() adds one item to the end of a list."
+  },
+  {
+    "question": "Which statement skips to the next iteration of a loop?",
+    "options": [
+      "stop",
+      "passloop",
+      "continue",
+      "break"
+    ],
+    "answer": "C",
+    "explanation": "continue skips the rest of the current iteration."
+  },
+  {
+    "question": "What is the Boolean value of an empty list?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ],
+    "answer": "B",
+    "explanation": "Empty containers are falsy in Python."
+  },
+  {
+    "question": "Which module provides functions for working with JSON in Python?",
+    "options": [
+      "csv",
+      "json",
+      "data",
+      "dict"
+    ],
+    "answer": "B",
+    "explanation": "The built-in json module encodes and decodes JSON."
+  },
+  {
+    "question": "What does a function's return statement do?",
+    "options": [
+      "Repeats the function",
+      "Sends a value back to the caller",
+      "Prints automatically",
+      "Stops Python"
+    ],
+    "answer": "B",
+    "explanation": "return ends the function and optionally provides a value."
+  },
+  {
+    "question": "Which expression checks whether x equals 5?",
+    "options": [
+      "x = 5",
+      "x := 5",
+      "x == 5",
+      "x === 5"
+    ],
+    "answer": "C",
+    "explanation": "== compares values for equality in Python."
+  }
+]

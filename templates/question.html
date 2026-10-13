@@ -1,0 +1,10 @@
+{% extends "base.html" %}{% block title %}Question {{ number }}{% endblock %}
+{% block content %}
+<p class="muted">Question {{ number }} of {{ total }}</p><h1>{{ item.question }}</h1>
+{% if error %}<p class="error">{{ error }}</p>{% endif %}
+<form action="{{ url_for('answer') }}" method="post">
+{% for option in item.options %}
+<label class="option"><input type="radio" name="answer" value="{{ 'ABCD'[loop.index0] }}" required>{{ 'ABCD'[loop.index0] }}. {{ option }}</label>
+{% endfor %}
+<button class="btn" type="submit">Submit answer</button></form>
+{% endblock %}

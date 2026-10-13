@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Python Quiz{% endblock %}</title>
+  <style>
+    :root{font-family:Arial,sans-serif;color:#172554;background:#f4f7fb}
+    body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px}
+    main{width:min(680px,100%);background:#fff;border-radius:18px;padding:32px;box-shadow:0 12px 40px #1e3a8a18}
+    h1{margin-top:0;color:#1d4ed8} .muted{color:#64748b}
+    .btn{display:inline-block;background:#1d4ed8;color:white;border:0;border-radius:9px;padding:12px 18px;font-size:1rem;text-decoration:none;cursor:pointer}
+    .option{display:block;border:1px solid #cbd5e1;border-radius:10px;padding:13px;margin:10px 0;cursor:pointer}
+    .option input{margin-right:10px} .error{color:#b91c1c}
+    .score{font-size:2rem;font-weight:bold} footer{margin-top:28px;color:#64748b;font-size:.85rem}
+  </style>
+</head>
+<body><main>{% block content %}{% endblock %}<footer>Python Quiz Application · Practice, learn, improve.</footer></main></body>
+</html>

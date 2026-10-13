@@ -1,0 +1,8 @@
+{% extends "base.html" %}{% block title %}Python Knowledge Quiz{% endblock %}
+{% block content %}
+<h1>Python Knowledge Quiz</h1>
+<p>Test your Python fundamentals with a multiple-choice quiz.</p>
+<ul><li>{{ count }} questions in the question bank</li><li>Randomized question order</li><li>Instant score and performance summary</li></ul>
+<form action="{{ url_for('start') }}" method="post"><button class="btn">Start quiz</button></form>
+<p class="muted">This web interface is included for hosting on Render. The command-line version is available with <code>python main.py</code>.</p>
+{% endblock %}
